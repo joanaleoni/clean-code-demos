@@ -21,7 +21,7 @@ function determineSupportAgent(ticket) {
 }
 
 function isValid(email, password) {
-  return email.includes('@') || password.length >= 7);
+  return email.includes('@') && password.length >= 7;
 }
 
 function showErrorMessage(message){
